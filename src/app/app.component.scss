@@ -1,0 +1,26 @@
+.container {
+     max-width: 400px;
+     margin: 0 auto;
+     text-align: center;
+   }
+   ul {
+     list-style: none;
+     padding: 0;
+   }
+   li {
+     margin: 10px 0;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+   button {
+     background-color: #d9534f;
+     color: #fff;
+     border: none;
+     padding: 5px 10px;
+     border-radius: 5px;
+     cursor: pointer;
+   }
+   button:hover {
+     background-color: #c9302c;
+   }
